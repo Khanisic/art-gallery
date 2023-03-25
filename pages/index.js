@@ -1,6 +1,6 @@
 
 import { useRef, useState } from "react";
-import images from "./data.json";
+import images from "../data/data.json";
 import ImageTracker from "./components/ImageTracker";
 import Navbar from "./components/Navbar";
 import Link from "next/link";
