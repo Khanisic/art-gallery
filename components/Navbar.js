@@ -28,8 +28,10 @@ function Navbar({ paintings, setPaintings, paintingsCopy }) {
         <h1 className="text-white text-3xl font-semibold">Art Gallery</h1>
       </Link>
       <Link href="/liked">
-        <div className="flex items-center gap-4 justify-center">
-          <Icons.Heart />
+        <div className="flex items-center gap-3">
+          <div className="w-4 h-4">
+            <Icons.Heart />
+          </div>
           <p className="text-white font-semibold text-2xl translate-y-[2px]">
             Liked
           </p>

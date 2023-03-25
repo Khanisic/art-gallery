@@ -23,7 +23,9 @@ function SearchBar({ handleSearch, clearSearch }) {
 
   return (
     <div className="flex gap-4 items-center">
-      <Icons.Search />
+      <div className="w-4 h-4">
+        <Icons.Search />
+      </div>
       <input
         onChange={(e) => {
           setDebouncedSearch(e.target.value);

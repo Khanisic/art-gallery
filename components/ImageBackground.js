@@ -55,9 +55,11 @@ function ImageBackground({ index, data }) {
       </div>
       <div className="flex flex-col z-50 text-xl absolute bottom-0 font-semibold left-[20%] -translate-y-8 cursor-pointer group-hover:-translate-y-[50px] text-white opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out ">
         <Link href={{ pathname: "/origin", query: data }}>
-          <div className="flex justify-center gap-2 bg-white items-center">
+          <div className="flex justify-center gap-2 h-[30px] bg-white items-center">
             <p className=" cursor-pointer text-black">Origin</p>
+            <div className="w-4 h-4">
             <Icons.GoTo />
+            </div>
           </div>
         </Link>
         <p className="">{data.location}</p>
