@@ -1,6 +1,6 @@
 import Head from "next/head";
 import "../styles/globals.css";
-import { ArtProvider } from "./context/ArtContext";
+import { ArtProvider } from "../context/ArtContext";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
