@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import ImageTracker from "./components/ImageTracker";
-import Navbar from "./components/Navbar";
+import ImageTracker from "../components/ImageTracker";
+import Navbar from "../components/Navbar";
 
 function Liked() {
 

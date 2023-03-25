@@ -1,8 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import ImageBackground from "./components/ImageBackground";
-import Navbar from "./components/Navbar";
-import { camelCase } from "./utils";
+import Navbar from "../components/Navbar";
+
 
 function Origin() {
   const [paintings, setPaintings] = useState([]);
