@@ -51,7 +51,9 @@ function ImageBackground({ index, data }) {
         onClick={likeImage}
         className="z-50 text-2xl absolute top-0 right-0 group-hover:-translate-x-5 group-hover:translate-y-5 opacity-0  group-hover:opacity-100 -rotate-180 group-hover:rotate-0 transition-all duration-300 ease-in-out"
       >
+      <div className="w-5 h-5">
         <Icons.Heart alreadyLiked={alreadyLiked} />
+      </div>
       </div>
       <div className="flex flex-col z-50 text-xl absolute bottom-0 font-semibold left-[20%] -translate-y-8 cursor-pointer group-hover:-translate-y-[50px] text-white opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out ">
         <Link href={{ pathname: "/origin", query: data }}>
